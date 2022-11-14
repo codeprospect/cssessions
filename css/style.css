@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  margin: 0;
+}
+
+.box-container {
+  background-color: rgb(249, 217, 175);
+  width: 100vw;
+  padding: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: #fed000;
+  margin: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fed000;
+  padding: 16px;
+}
+
+.logo {
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  list-style-type: none;
+}
